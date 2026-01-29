@@ -30,7 +30,7 @@ This project is an **AI-powered autonomous news agent** that **automatically** f
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/divyansh44/flipr25_Indigo.git
+git clone https://github.com/hardiksirohiya/NewsProject.git
 
 ```
 
