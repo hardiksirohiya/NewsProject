@@ -29,7 +29,8 @@ const App = () => {
     const fetchNews = async () => {
       try {
         setLoading(true);
-        const response = await fetch("http://127.0.0.1:5000/news");
+        const url = import.meta.env.VITE_BACKEND_URL;
+        const response = await fetch(`http://${url}/news`);
         if (!response.ok) throw new Error("Failed to fetch news");
         const data = await response.json();
         console.log(data);
